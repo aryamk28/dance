@@ -84,6 +84,8 @@
     font-size: 18px;
     font-weight: 350;
     border: none;
+    text-decoration: none;
+    color: black;
 }
 
 .mov {
@@ -209,6 +211,7 @@
     padding: 10px;
     font-size: 15px;
     border: none;
+    text-decoration: none;
 }
 
 .who-overlay {
@@ -256,7 +259,7 @@
 
 
 .sophia-img {
-    width: 765px;
+    width: 770px;
     height: 400px;
     margin-left: 445px;
 }
@@ -291,7 +294,7 @@
 }
 
 .alisa-img {
-    width: 765px;
+    width: 770px;
     height: 400px;
     margin-left: 289px;
 }
@@ -342,7 +345,7 @@
     font-weight: 700;
 }
 
-.blue button {
+.blue-button {
     background-color: rgb(180, 220, 221);
     padding: 10px;
     font-size: 18px;
@@ -350,4 +353,6 @@
     border: none;
     margin: 20px;
     margin-left: 200px;
+    text-decoration: none;
+    color: black;
 }
