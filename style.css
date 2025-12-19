@@ -4,6 +4,16 @@
     font-weight: lighter;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .nav-bar {
     background-color: black;
     color: white;
@@ -357,120 +367,179 @@
     color: black;
 }
 
-/* ===================== RESPONSIVE SCALE FIX ===================== */
-
-/* Tablet */
-@media (max-width: 1024px) {
-
-    .image-container img {
-        width: 100%;
-        height: auto;
-    }
-
-    .text-overlay {
-        font-size: 70px;
-        top: 30%;
-        left: 20%;
-    }
-
-    .mov {
-        gap: 120px;
-        height: auto;
-    }
-
-    .mov-text {
-        font-size: 80px;
-    }
-
-    .who-overlay {
-        top: 180%;
-        font-size: 60px;
-    }
-
-    .classes-overlay {
-        top: 2000px;
-        font-size: 60px;
-    }
-
-    .sophia-img,
-    .alisa-img {
-        width: 90%;
-    }
-
-    .sophia-img {
-        margin-left: 200px;
-    }
-
-    .alisa-img {
-        margin-left: 120px;
-    }
-
-    .sophia-text,
-    .alisa-text {
-        margin-left: inherit;
-    }
-}
-
-/* Mobile */
+/* ===================== MOBILE RESPONSIVE FIX ===================== */
 @media (max-width: 768px) {
 
+    /* NAVBAR */
     .nav-bar {
         flex-direction: column;
         align-items: center;
     }
 
+    .nav-bar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-item {
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+
+    /* HERO */
+    .image-container img {
+        width: 100%;
+        height: 60vh;
+    }
+
     .text-overlay {
-        font-size: 40px;
-        top: 25%;
+        position: absolute;
+        top: 30%;
         left: 50%;
         transform: translateX(-50%);
-    }
-
-    .button-overlay {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .mov {
-        flex-direction: column;
-        gap: 40px;
-        height: auto;
-    }
-
-    .mov-text {
-        font-size: 60px;
+        font-size: 42px;
         text-align: center;
     }
 
-    .who-overlay {
-        top: 160%;
+    .button-overlay {
+        top: auto;
+        bottom: 10%;
         left: 50%;
         transform: translateX(-50%);
-        font-size: 40px;
+    }
+
+    /* MOV SECTION */
+    .mov {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mov-text {
+        font-size: 64px;
+    }
+
+    /* BOXES */
+    .boxes {
+        flex-direction: column;
+    }
+
+    .socials,
+    .email,
+    .book {
+        width: 100%;
+        height: auto;
+    }
+
+    /* WHO SECTION */
+    .who {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .who-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .who-overlay {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: 48px;
+    }
+
+    .who-text h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .who-text p {
+        text-align: center;
+    }
+
+    /* CLASSES SECTION */
+    .classes {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .classes-img {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
     }
 
     .classes-overlay {
-        top: 1700px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 40px;
+        position: absolute;
+        top: auto;
+        left: 10%;
+        margin-top: 40px;
+        font-size: 48px;
     }
 
-    .sophia,
-    .alisa {
+    /* SOPHIA */
+    .sophia {
         flex-direction: column;
         align-items: center;
     }
 
-    .sophia-img,
-    .alisa-img {
-        margin-left: 0;
-        width: 100%;
+    .sophia h1 {
+        margin: 20px 0;
     }
 
-    .sophia-text,
+    .sophia-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sophia-text {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ALISA */
+    .alisa {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .alisa p {
+        margin: 20px;
+        white-space: normal;
+    }
+
+    .alisa-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
     .alisa-text {
         margin-left: 0;
         width: 100%;
+        text-align: center;
+    }
+
+    /* BLUE CTA */
+    .blue {
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .blue p {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .blue-button {
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
