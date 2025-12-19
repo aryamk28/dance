@@ -425,6 +425,7 @@
         flex-direction: column;
         gap: 10px;
         align-items: flex-start;
+        border-right: 1px solid #999;
     }
 
     .card-footer span {
@@ -477,9 +478,6 @@
         grid-template-columns: 1fr;
     }
 
-    .card-footer span {
-        border-right: none;
-    }
 
     .socials,
     .email,
@@ -489,10 +487,4 @@
         padding: 30px;
         font-size: 22px;
     }
-}
-
-.card-footer span {
-    padding: 14px 20px;
-    border-right: 1px solid #999;
-    /* ← this line */
 }
