@@ -391,7 +391,7 @@ img {
 
     .head {
         margin: 10px, 0;
-        font-size: 30px;
+        font-size: 22px;
     }
 
 
@@ -429,10 +429,7 @@ img {
         font-size: 64px;
     }
 
-    /* BOXES */
-    .boxes {
-        flex-direction: column;
-    }
+
 
     .socials,
     .email,
