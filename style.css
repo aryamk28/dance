@@ -198,7 +198,7 @@ img {
 
 .who {
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 
 .who-img {
@@ -235,7 +235,7 @@ img {
 
 .classes {
     display: flex;
-    gap: 150px;
+    gap: 200px;
 }
 
 .classes-img {
@@ -391,7 +391,7 @@ img {
 
     .head {
         margin: 10px, 0;
-        font-size: 20px;
+        font-size: 22px;
     }
 
 
@@ -407,6 +407,7 @@ img {
         text-align: left;
         font-weight: 700;
         margin-left: 16px;
+        font-size: 70px;
     }
 
     .button-overlay {
