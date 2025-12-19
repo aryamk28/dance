@@ -342,28 +342,60 @@
         display: none;
     }
 
-    @media (max-width: 768px) {
 
-        /* Stack navbar items */
-        .nav-bar ul {
-            flex-direction: column;
-            align-items: center;
-        }
 
-        /* Remove divider lines completely */
-        .nav-item::after {
-            content: none !important;
-            display: none !important;
-        }
-
-        /* Clean spacing */
-        .nav-item {
-            width: 100%;
-            text-align: center;
-            padding: 12px 0;
-        }
+    /* Stack navbar items */
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
     }
 
+    /* Remove divider lines completely */
+    .nav-item::after {
+        content: none !important;
+        display: none !important;
+    }
+
+    /* Clean spacing */
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .text-overlay {
+        text-align: left;
+        font-weight: 700;
+        margin-left: 16px;
+    }
+
+    .button-overlay {
+        margin-left: 16px;
+        align-self: flex-start;
+    }
+
+    /* Remove space around the classes image */
+
+    .classes-image img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+
+    /* Fix About button position */
+    .about {
+        display: block;
+        margin: 16px auto 0;
+        /* center horizontally */
+        text-align: center;
+    }
+
+    /* Normalize section spacing */
+    .who-text {
+        padding: 16px;
+        margin: 0;
+    }
 
     .head {
         margin: 10px 0;
@@ -376,11 +408,7 @@
         height: 300px;
     }
 
-    .text-overlay {
-        font-size: 48px;
-        top: 30%;
-        left: 30%;
-    }
+
 
     /* ---------- BOOKING SECTION ---------- */
     .booking-section {
@@ -484,9 +512,27 @@
     }
 
     /* ---------- BOXES ---------- */
-    .boxes {
-        grid-template-columns: 1fr;
+    /* Image + Vision text overlay */
+    .who {
+        position: relative;
     }
+
+    .who-text {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        z-index: 2;
+        color: white;
+    }
+
+    /* Boxes stack vertically */
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
 
 
 
