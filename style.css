@@ -391,7 +391,7 @@ img {
 
     .head {
         margin: 10px, 0;
-        font-size: 22px;
+        font-size: 20px;
     }
 
 
@@ -435,7 +435,6 @@ img {
     .email,
     .book {
         width: 100%;
-        height: auto;
     }
 
     /* WHO SECTION */
@@ -480,7 +479,8 @@ img {
     .boxes {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        align-items: stretch;
+
     }
 
     /* CLASSES SECTION */
@@ -564,28 +564,29 @@ img {
         margin-left: 0;
         margin-top: 20px;
     }
-}
 
-/* Remove space around the classes image */
-.classes-image,
-.classes-image img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: block;
-}
 
-/* Fix About button position */
-.about {
-    display: block;
-    margin: 16px auto 0;
-    /* center horizontally */
-    text-align: center;
-}
+    /* Remove space around the classes image */
+    .classes-image,
+    .classes-image img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
 
-/* Normalize section spacing */
-.who,
-.classes {
-    padding: 16px;
-    margin: 0;
+    /* Fix About button position */
+    .about {
+        display: block;
+        margin: 16px auto 0;
+        /* center horizontally */
+        text-align: center;
+    }
+
+    /* Normalize section spacing */
+    .who,
+    .classes {
+        padding: 16px;
+        margin: 0;
+    }
 }
