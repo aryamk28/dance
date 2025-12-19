@@ -391,7 +391,7 @@ img {
 
     .head {
         margin: 10px, 0;
-        font-size: 22px;
+        font-size: 20px;
     }
 
 
@@ -407,7 +407,8 @@ img {
         text-align: left;
         font-weight: 700;
         margin-left: 16px;
-        font-size: 70px;
+        font-size: 40px;
+        margin-left: 20px;
     }
 
     .button-overlay {
