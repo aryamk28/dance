@@ -436,8 +436,7 @@ img {
     /* WHO SECTION */
     .who {
         flex-direction: column;
-        gap: 30px;
-        padding: 20px;
+        gap: 40px;
     }
 
     .who-img {
@@ -446,10 +445,9 @@ img {
     }
 
     .who-overlay {
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        font-size: 48px;
+        font-size: 42px;
+        bottom: 20px;
+        left: 20px;
     }
 
     .who-text h1 {
