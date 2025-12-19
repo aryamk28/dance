@@ -415,7 +415,7 @@
     }
 
     .card-footer span {
-        border-right: none;
+
         padding: 10px 0;
     }
 
@@ -461,7 +461,7 @@
 
     /* ---------- BOXES ---------- */
     .boxes {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .socials,
