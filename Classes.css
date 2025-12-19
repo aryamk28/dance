@@ -318,15 +318,15 @@
 }
 
 
-/* Mobile Responsive Overrides */
+/* Mobile-only overrides for screens <= 768px */
 @media (max-width: 768px) {
 
-    /* Navbar */
+    /* Navbar: stack items vertically */
     .nav-bar {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     .nav-bar ul {
@@ -342,7 +342,7 @@
 
     .nav-item:not(:last-child)::after {
         display: none;
-        /* remove divider lines for mobile */
+        /* hide divider lines on mobile */
     }
 
     .head {
@@ -350,22 +350,22 @@
         font-size: 22px;
     }
 
-    /* Hero Image */
+    /* Hero image and overlay */
     .image-container img {
         width: 100%;
         height: auto;
     }
 
     .text-overlay {
-        font-size: 12vw !important;
+        font-size: 12vw;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        text-align: center;
         padding: 5px 10px;
+        text-align: center;
     }
 
-    /* Booking Section */
+    /* Booking section stack */
     .booking-section {
         display: flex;
         flex-direction: column;
@@ -374,12 +374,6 @@
     .booking-title {
         width: 100%;
         padding: 15px;
-        height: auto;
-    }
-
-    .booking-title h2 {
-        font-size: 7vw;
-        line-height: 1.2;
     }
 
     .booking-grid {
@@ -393,7 +387,6 @@
         grid-column: auto !important;
     }
 
-    /* Cards */
     .image-box img,
     .image-boxes img {
         width: 100%;
@@ -401,7 +394,7 @@
     }
 
     .code {
-        font-size: 10vw !important;
+        font-size: 8vw !important;
     }
 
     .card-content h3 {
@@ -423,9 +416,9 @@
         margin-bottom: 5px;
     }
 
-    /* Promise Section */
+    /* Promise section stack */
     .promise {
-        flex-direction: column !important;
+        flex-direction: column;
     }
 
     .promise-text,
@@ -448,9 +441,9 @@
         height: auto;
     }
 
-    /* Mov Section */
+    /* Mov section stack */
     .mov {
-        flex-direction: column !important;
+        flex-direction: column;
         gap: 15px;
         padding: 10px;
     }
@@ -462,14 +455,14 @@
 
     .mov-socials,
     .mov-add {
-        width: 100% !important;
+        width: 100%;
         text-align: center;
         font-size: 4.5vw;
     }
 
-    /* Boxes Section */
+    /* Boxes section stack */
     .boxes {
-        flex-direction: column !important;
+        flex-direction: column;
         gap: 10px;
         padding: 10px;
     }
@@ -477,7 +470,7 @@
     .socials,
     .email,
     .book {
-        width: 100% !important;
+        width: 100%;
         text-align: center;
         font-size: 4.5vw;
     }
