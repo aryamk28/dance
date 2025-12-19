@@ -372,7 +372,7 @@
     }
 
     .booking-title {
-
+        height: 100px;
         padding: 15px;
     }
 
@@ -407,6 +407,7 @@
 
     .card-footer {
         flex-direction: column;
+        border-right: 1px solid #999;
     }
 
     .card-footer span,
@@ -418,6 +419,7 @@
     /* Promise section stack */
     .promise {
         flex-direction: column;
+        height: 100px;
     }
 
     .promise-text,
