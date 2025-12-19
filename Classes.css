@@ -325,21 +325,30 @@
     .nav-bar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding: 10px 15px;
     }
 
     .nav-bar ul {
         flex-direction: column;
         width: 100%;
+        padding: 0;
     }
 
     .nav-bar ul li {
         margin: 5px 0;
+        width: 100%;
+    }
+
+    .nav-item {
+        padding: 8px 0;
+
     }
 
     .head {
         margin: 10px 0;
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
     }
 
     /* Hero Image */
@@ -349,10 +358,10 @@
     }
 
     .text-overlay {
+        font-size: 12vw;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 12vw;
         padding: 5px 10px;
         text-align: center;
     }
@@ -365,11 +374,12 @@
     .booking-title {
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 15px;
     }
 
     .booking-title h2 {
-        font-size: 8vw;
+        font-size: 7vw;
+        line-height: 1.2;
     }
 
     .booking-grid {
@@ -399,7 +409,8 @@
 
     .card-footer span,
     .card-footer button {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        padding: 5px;
     }
 
     /* Promise Section */
@@ -414,10 +425,12 @@
 
     .promise-head {
         font-size: 8vw;
+        text-align: center;
     }
 
     .promise-para {
         font-size: 4.5vw;
+        text-align: center;
     }
 
     .promise-image {
@@ -434,18 +447,21 @@
 
     .mov-text {
         font-size: 15vw;
+        text-align: center;
     }
 
     .mov-socials,
     .mov-add {
         width: 100%;
         font-size: 4.5vw;
+        text-align: center;
     }
 
     /* Boxes */
     .boxes {
         flex-direction: column;
         gap: 10px;
+        padding: 10px;
     }
 
     .socials,
@@ -453,6 +469,6 @@
     .book {
         width: 100%;
         font-size: 5vw;
+        text-align: center;
     }
-
 }
