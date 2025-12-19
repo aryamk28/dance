@@ -316,3 +316,143 @@
     border-right: 1px solid #999;
     color: #2563eb;
 }
+
+
+/* Mobile Responsive Overrides */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-bar ul li {
+        margin: 5px 0;
+    }
+
+    .head {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    /* Hero Image */
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-overlay {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12vw;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    /* Booking Section */
+    .booking-section {
+        display: block;
+    }
+
+    .booking-title {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .booking-title h2 {
+        font-size: 8vw;
+    }
+
+    .booking-grid {
+        margin-left: 0;
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    /* Cards */
+    .image-box img,
+    .image-boxes img {
+        width: 100%;
+        height: auto;
+    }
+
+    .code {
+        font-size: 8vw;
+    }
+
+    .card-content h3 {
+        font-size: 5vw;
+    }
+
+    .card-content p {
+        font-size: 3.5vw;
+    }
+
+    .card-footer span,
+    .card-footer button {
+        font-size: 3vw;
+    }
+
+    /* Promise Section */
+    .promise {
+        flex-direction: column;
+    }
+
+    .promise-text,
+    .promise-content {
+        width: 100%;
+    }
+
+    .promise-head {
+        font-size: 8vw;
+    }
+
+    .promise-para {
+        font-size: 4.5vw;
+    }
+
+    .promise-image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Mov Section */
+    .mov {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .mov-text {
+        font-size: 15vw;
+    }
+
+    .mov-socials,
+    .mov-add {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+
+    /* Boxes */
+    .boxes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .socials,
+    .email,
+    .book {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+}
