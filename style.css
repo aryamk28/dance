@@ -394,11 +394,12 @@ img {
 
     .text-overlay {
         position: absolute;
-        top: 30%;
-        left: 50%;
+        top: 20%;
+        left: 30%;
         transform: translateX(-50%);
         font-size: 42px;
         text-align: center;
+        font-weight: 500;
     }
 
     .button-overlay {
