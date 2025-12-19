@@ -326,7 +326,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 10px 15px;
+        padding: 10px;
     }
 
     .nav-bar ul {
@@ -337,6 +337,7 @@
 
     .nav-bar ul li {
         margin: 5px 0;
+        width: 100%;
     }
 
     .nav-item:not(:last-child)::after {
@@ -356,7 +357,7 @@
     }
 
     .text-overlay {
-        font-size: 10vw;
+        font-size: 12vw !important;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -377,19 +378,19 @@
     }
 
     .booking-title h2 {
-        font-size: 6vw;
+        font-size: 7vw;
         line-height: 1.2;
     }
 
     .booking-grid {
-        grid-template-columns: 1fr !important;
-        gap: 10px;
         margin-left: 0;
         margin-right: 0;
+        grid-template-columns: 1fr !important;
+        gap: 15px;
     }
 
     .card.full {
-        grid-column: auto;
+        grid-column: auto !important;
     }
 
     /* Cards */
@@ -400,7 +401,7 @@
     }
 
     .code {
-        font-size: 8vw;
+        font-size: 10vw !important;
     }
 
     .card-content h3 {
@@ -424,12 +425,12 @@
 
     /* Promise Section */
     .promise {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .promise-text,
     .promise-content {
-        width: 100%;
+        width: 100% !important;
     }
 
     .promise-head {
@@ -449,7 +450,7 @@
 
     /* Mov Section */
     .mov {
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 15px;
         padding: 10px;
     }
@@ -461,14 +462,14 @@
 
     .mov-socials,
     .mov-add {
-        width: 100%;
+        width: 100% !important;
         text-align: center;
         font-size: 4.5vw;
     }
 
     /* Boxes Section */
     .boxes {
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 10px;
         padding: 10px;
     }
@@ -476,7 +477,7 @@
     .socials,
     .email,
     .book {
-        width: 100%;
+        width: 100% !important;
         text-align: center;
         font-size: 4.5vw;
     }
