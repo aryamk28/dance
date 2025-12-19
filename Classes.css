@@ -416,8 +416,8 @@
     }
 
     .card-footer span {
-        border-right: none;
         padding: 10px 0;
+        border-right: none;
     }
 
     /* ---------- PROMISE SECTION ---------- */
