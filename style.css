@@ -470,7 +470,7 @@ img {
     .classes-img {
         width: 100%;
         height: auto;
-        margin-top: 0;
+        margin: -5px;
     }
 
     .classes-overlay {
