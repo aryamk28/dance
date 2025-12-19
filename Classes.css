@@ -407,7 +407,6 @@
 
     .card-footer {
         flex-direction: column;
-        align-items: flex-start;
     }
 
     .card-footer span,
