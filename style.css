@@ -370,28 +370,24 @@ img {
 /* ===================== MOBILE RESPONSIVE FIX ===================== */
 @media (max-width: 768px) {
 
-    /* Stack navbar items */
-    .nav-bar ul {
+    .nav-bar {
         flex-direction: column;
         align-items: center;
-    }
-
-    /* Remove divider lines completely */
-    .nav-item::after {
-        content: none !important;
-        display: none !important;
-    }
-
-    /* Clean spacing */
-    .nav-item {
-        width: 100%;
+        justify-content: center;
         text-align: center;
-        padding: 12px 0;
+    }
+
+    .nav-bar ul {
+        width: 100%;
+        align-items: center;
+        padding-bottom: 10px;
     }
 
     .head {
-        margin: 10px, 0;
-        font-size: 18px;
+        width: 100%;
+        margin: 10px 0 16px 0;
+        font-size: 20px;
+        text-align: center;
     }
 
 
