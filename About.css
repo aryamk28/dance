@@ -510,6 +510,7 @@ body {
 
     /* SOCIAL BOXES */
     .boxes {
+        display: flex;
         flex-direction: column;
     }
 
