@@ -356,3 +356,167 @@ body {
     color: black;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE STYLES
+   ========================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .nav-item::after {
+        display: none;
+    }
+
+    .head {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    /* HERO IMAGE */
+    .image-container img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .text-overlay {
+        font-size: 48px;
+        left: 50%;
+        top: 40%;
+        text-align: center;
+    }
+
+    /* MARQUEE */
+    .marquee-content span {
+        font-size: 14px;
+    }
+
+    /* FOUNDERS */
+    .founders {
+        flex-direction: column;
+    }
+
+    .founders-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .founders-pic {
+        flex-direction: column;
+    }
+
+    .founders-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* INSTRUCTORS SECTION */
+    .instructors-section {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .instructors-title {
+        padding: 20px;
+        border-bottom: 1px solid #333;
+    }
+
+    .instructors-grid {
+        grid-template-columns: 1fr;
+        border-left: none;
+    }
+
+    .instructor-card {
+        padding: 20px;
+        border-right: none !important;
+    }
+
+    .instructor-card h3 {
+        font-size: 22px;
+    }
+
+    .instructor-card h4 {
+        font-size: 16px;
+    }
+
+    .instructor-card p {
+        font-size: 14px;
+    }
+
+    /* FLOOR SECTION */
+    .floor {
+        flex-direction: column;
+    }
+
+    .floor img {
+        width: 100%;
+        height: auto;
+    }
+
+    .floor-content {
+        padding: 30px;
+    }
+
+    /* BLUE CTA */
+    .blue {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .blue p {
+        font-size: 22px;
+        margin: 20px;
+        margin-left: 20px;
+    }
+
+    .blue-button {
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    /* FOOTER */
+    .mov {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .mov-text {
+        font-size: 70px;
+    }
+
+    /* SOCIAL BOXES */
+    .boxes {
+        flex-direction: column;
+    }
+
+    .socials,
+    .email,
+    .book {
+        width: 100%;
+        height: auto;
+    }
+}
