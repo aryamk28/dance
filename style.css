@@ -393,24 +393,17 @@ img {
         text-align: center;
     }
 
-    /* ❌ REMOVE DIVIDER LINES COMPLETELY */
+
     .nav-item::after {
         display: none !important;
-        content: none !important;
     }
 
-    /* ✅ MOVE "Movement Studios." TO ITS OWN LINE */
     .head {
         width: 100%;
         margin-top: 12px;
         font-size: 18px;
         text-align: center;
         order: 2;
-    }
-
-    /* Ensure ul stays above the title */
-    .nav-bar ul {
-        order: 1;
     }
 
 
